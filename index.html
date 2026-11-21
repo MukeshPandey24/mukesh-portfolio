@@ -98,6 +98,69 @@ h2.section-title{font-family:Georgia,'Times New Roman',serif;font-weight:400;fon
 @media(max-width:850px){.hero{min-height:700px;padding-top:55px}.profile{top:110px;width:min(430px,78vw);height:470px}h1{margin-top:180px;font-size:clamp(64px,12vw,100px)}}
 @media(max-width:680px){.nav{height:auto;min-height:66px;margin-top:8px;padding:12px 16px;border-radius:24px;gap:12px}.brand{font-size:20px}nav{gap:10px;font-size:10px}.hero{min-height:650px;padding:45px 0 50px}h1{font-size:clamp(58px,15vw,82px);letter-spacing:-3px;margin-top:165px}.profile{top:100px;height:400px;width:min(360px,88vw)}.lead{font-size:14px}.pill{font-size:9px;letter-spacing:1.5px}.card{padding:22px}section{padding:68px 0}}
 
+
+/* FULL REBUILD — HIGH-CONTRAST CREATIVE PORTFOLIO */
+:root{--bg:#080808;--panel:#111;--text:#f5f1e9;--muted:#aaa49a;--line:rgba(245,241,233,.16);--mint:#ff6b35;--blue:#ffb28e;--gold:#ff6b35;--max:1320px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:105px}
+body{margin:0;background:#080808;color:#f5f1e9;font-family:Arial,Helvetica,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.16;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.22'/%3E%3C/svg%3E")}
+.wrap{width:min(var(--max),calc(100% - 64px));margin:auto}
+header{position:sticky;top:0;z-index:30;background:rgba(8,8,8,.86);backdrop-filter:blur(22px);border-bottom:1px solid var(--line)}
+.nav{height:86px;display:flex;align-items:center;justify-content:space-between}
+.brand{font-family:Georgia,serif;font-size:27px;letter-spacing:-1px;font-weight:400}.brand b{color:#ff6b35}
+nav{display:flex;gap:clamp(14px,2.5vw,34px);font-size:11px;text-transform:uppercase;letter-spacing:1.4px;color:#d0cbc2}
+nav a:hover{color:#ff6b35}
+.hero{min-height:calc(100vh - 86px);padding:65px 0 50px;display:grid;grid-template-columns:1.08fr .92fr;gap:45px;align-items:center;position:relative}
+.hero:after{content:"";position:absolute;width:520px;height:520px;right:5%;top:12%;background:radial-gradient(circle,rgba(255,107,53,.18),transparent 68%);filter:blur(40px);pointer-events:none}
+.hero>div{position:relative;z-index:2}
+.pill{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border:1px solid rgba(255,107,53,.45);border-radius:2px;background:rgba(255,107,53,.07);color:#ff9a70;font-size:10px;letter-spacing:2.4px;font-weight:800}
+.pill:before{content:"";width:7px;height:7px;background:#ff6b35;border-radius:50%;box-shadow:0 0 15px #ff6b35}
+h1{font-family:Georgia,'Times New Roman',serif;font-size:clamp(66px,8.5vw,124px);line-height:.83;letter-spacing:-6px;font-weight:400;margin:48px 0 28px}
+.grad{color:#ff6b35;background:none;font-style:italic}
+.lead{max-width:560px;color:#c2bcb3;font-size:17px;line-height:1.85}
+.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:32px}
+.btn{display:inline-flex;align-items:center;gap:14px;padding:15px 23px;border-radius:2px;border:1px solid rgba(255,255,255,.28);font-size:11px;letter-spacing:1.3px;text-transform:uppercase;font-weight:800;background:transparent}
+.btn:hover{transform:translateY(-4px);border-color:#ff6b35;color:#ff9a70}
+.primary{background:#ff6b35;border-color:#ff6b35;color:#120a06;box-shadow:0 10px 35px rgba(255,107,53,.18)}
+.profile{position:relative;z-index:2;width:100%;max-width:530px;margin-left:auto;padding:13px;border:1px solid rgba(255,255,255,.24);border-radius:4px;background:linear-gradient(145deg,#25211e,#0d0d0d);box-shadow:22px 22px 0 rgba(255,107,53,.14),0 35px 90px rgba(0,0,0,.5);transform:rotate(1.5deg)}
+.profile:before{content:"MUKESH / 2026";position:absolute;top:-31px;right:0;color:#ff9a70;font-size:9px;letter-spacing:3px}
+.portrait{display:block;width:100%;height:540px;object-fit:cover;object-position:center 20%;border-radius:2px;border:0;background:#171717;filter:grayscale(.85) contrast(1.12) brightness(.88);box-shadow:none}
+.profile h2{margin:18px 8px 0;font-family:Georgia,serif;font-size:27px;font-weight:400}
+.profile>p{margin:4px 8px 12px;color:#aaa;font-size:11px;letter-spacing:1px;text-transform:uppercase}
+.stat{display:none}
+section{padding:105px 0;position:relative;background:#080808}
+section+section:before{content:"";position:absolute;top:0;left:0;width:100%;height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.25),transparent)}
+.kicker{color:#ff8d62!important;font-size:10px;letter-spacing:3px;font-weight:900;text-transform:uppercase}
+h2.section-title{font-family:Georgia,serif;font-weight:400;font-size:clamp(40px,5vw,68px);letter-spacing:-2px;line-height:1.02;margin:16px 0 25px}
+.intro{max-width:780px;color:#bcb6ad;font-size:17px;line-height:1.9}
+.grid{gap:20px}
+.card,.skill,.contact{background:linear-gradient(135deg,#151515,#0d0d0d);border:1px solid rgba(255,255,255,.17);border-radius:3px;box-shadow:0 18px 55px rgba(0,0,0,.2)}
+.card{padding:30px;position:relative;overflow:hidden}
+.card:after{content:"";position:absolute;top:0;left:0;width:3px;height:0;background:#ff6b35;transition:height .35s}
+.card:hover{transform:translateY(-7px);border-color:rgba(255,107,53,.55);box-shadow:0 28px 65px rgba(0,0,0,.4)}
+.card:hover:after{height:100%}
+.card h3{font-family:Georgia,serif;font-size:26px;font-weight:400}
+.card p{color:#bdb7af;line-height:1.85}
+.skills{grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}
+.skill{padding:21px;font-size:14px;border-radius:2px;transition:transform .25s,border-color .25s}
+.skill:hover{transform:translateY(-5px);border-color:#ff6b35}
+.skill small{color:#999}
+.timeline{border-color:#ff6b35}
+.timeline .card:before{background:#ff6b35;box-shadow:0 0 0 5px rgba(255,107,53,.12),0 0 20px rgba(255,107,53,.4)}
+.meta,.status{color:#ff9a70!important;letter-spacing:2px}
+.metricrow{gap:14px}
+.metric{background:#171310;border:1px solid rgba(255,107,53,.25);border-radius:2px;padding:20px}
+.metric strong{color:#ff8d62;font-family:Georgia,serif;font-size:30px}
+.contact{padding:42px;background:radial-gradient(ellipse at 90% 10%,rgba(255,107,53,.17),transparent 55%),#12100f;border-radius:3px}
+.foot{padding:35px 0;border-top:1px solid var(--line);color:#8d8881;letter-spacing:1px;text-transform:uppercase;font-size:10px}
+@keyframes revealUp{from{opacity:0;transform:translateY(25px)}to{opacity:1;transform:translateY(0)}}
+.hero>div,.profile{animation:revealUp .9s ease both}
+.profile{animation-delay:.15s}
+@media(max-width:850px){.hero{grid-template-columns:1fr;gap:55px;padding:65px 0}.profile{margin:0 auto;width:min(100%,520px)}.portrait{height:520px}.skills{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:680px){.wrap{width:calc(100% - 32px)}.nav{height:auto;min-height:70px;align-items:flex-start;padding:17px 0;gap:16px;flex-direction:column}.brand{font-size:23px}nav{width:100%;overflow-x:auto;gap:20px;padding-bottom:5px;font-size:9px;white-space:nowrap}.hero{min-height:0;padding:58px 0 55px;gap:48px}h1{font-size:clamp(62px,16vw,92px);letter-spacing:-3px;margin:38px 0 22px}.lead{font-size:15px}.profile{max-width:420px;transform:none}.portrait{height:430px}.grid{grid-template-columns:1fr}.skills{grid-template-columns:repeat(2,minmax(0,1fr))}section{padding:72px 0}.card{padding:23px}.contact{padding:26px}.metricrow{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
 </style></head><body>
 <header><div class="wrap nav"><a class="brand" href="#home">MUKESH<b>.</b></a><nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a></nav></div></header>
 <main><div class="wrap hero" id="home"><div><span class="pill">OPEN TO PAID REMOTE INTERNSHIPS</span><h1>Hi, I'm Mukesh<br><span class="grad">Pandey.</span></h1><p class="lead">MBA Business Analytics student and aspiring Business Analyst / Data Analyst. I’m developing practical skills to turn business data into clear insights and support better decisions.</p><div class="actions"><a class="btn primary" href="#projects">Explore my work</a><a class="btn" href="#contact">Contact me</a></div></div><aside class="profile"><img class="portrait" src="data:image/jpeg;base64,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" alt="Mukesh Pandey professional portrait"><h2>Mukesh Pandey</h2><p>Business Analytics · Data Analysis · Business Operations</p><div class="stat"><strong>9 months</strong><small>Customer support experience</small></div><div class="stat"><strong>MBA</strong><small>Business Analytics · Pursuing</small></div></aside></div>
