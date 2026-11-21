@@ -1,0 +1,145 @@
+Month,Region,Category,Orders,Average_Order_Value_INR,Revenue_INR
+2026-01,North,Technology,58,2256,130848
+2026-01,North,Furniture,35,2114,73990
+2026-01,North,Office Supplies,65,339,22035
+2026-01,South,Technology,55,3528,194040
+2026-01,South,Furniture,23,2152,49496
+2026-01,South,Office Supplies,56,453,25368
+2026-01,East,Technology,63,4461,281043
+2026-01,East,Furniture,32,3613,115616
+2026-01,East,Office Supplies,18,964,17352
+2026-01,West,Technology,45,3193,143685
+2026-01,West,Furniture,31,2578,79918
+2026-01,West,Office Supplies,23,617,14191
+2026-02,North,Technology,40,4272,170880
+2026-02,North,Furniture,20,3081,61620
+2026-02,North,Office Supplies,25,815,20375
+2026-02,South,Technology,36,5197,187092
+2026-02,South,Furniture,41,1987,81467
+2026-02,South,Office Supplies,22,1041,22902
+2026-02,East,Technology,36,2126,76536
+2026-02,East,Furniture,42,3057,128394
+2026-02,East,Office Supplies,41,613,25133
+2026-02,West,Technology,31,4545,140895
+2026-02,West,Furniture,61,1492,91012
+2026-02,West,Office Supplies,58,996,57768
+2026-03,North,Technology,33,2469,81477
+2026-03,North,Furniture,35,3481,121835
+2026-03,North,Office Supplies,61,484,29524
+2026-03,South,Technology,20,5097,101940
+2026-03,South,Furniture,35,2064,72240
+2026-03,South,Office Supplies,63,921,58023
+2026-03,East,Technology,49,3420,167580
+2026-03,East,Furniture,34,2210,75140
+2026-03,East,Office Supplies,53,1014,53742
+2026-03,West,Technology,55,3554,195470
+2026-03,West,Furniture,41,1766,72406
+2026-03,West,Office Supplies,49,362,17738
+2026-04,North,Technology,27,4370,117990
+2026-04,North,Furniture,61,3642,222162
+2026-04,North,Office Supplies,42,729,30618
+2026-04,South,Technology,51,2829,144279
+2026-04,South,Furniture,61,1669,101809
+2026-04,South,Office Supplies,52,1037,53924
+2026-04,East,Technology,59,3193,188387
+2026-04,East,Furniture,45,3058,137610
+2026-04,East,Office Supplies,64,762,48768
+2026-04,West,Technology,29,3879,112491
+2026-04,West,Furniture,37,3279,121323
+2026-04,West,Office Supplies,30,1030,30900
+2026-05,North,Technology,28,4009,112252
+2026-05,North,Furniture,56,3201,179256
+2026-05,North,Office Supplies,25,495,12375
+2026-05,South,Technology,21,2786,58506
+2026-05,South,Furniture,23,3190,73370
+2026-05,South,Office Supplies,22,1034,22748
+2026-05,East,Technology,26,2325,60450
+2026-05,East,Furniture,28,3361,94108
+2026-05,East,Office Supplies,45,1023,46035
+2026-05,West,Technology,64,4625,296000
+2026-05,West,Furniture,37,2729,100973
+2026-05,West,Office Supplies,51,503,25653
+2026-06,North,Technology,32,2062,65984
+2026-06,North,Furniture,55,2142,117810
+2026-06,North,Office Supplies,32,974,31168
+2026-06,South,Technology,58,2041,118378
+2026-06,South,Furniture,20,1490,29800
+2026-06,South,Office Supplies,33,469,15477
+2026-06,East,Technology,52,2341,121732
+2026-06,East,Furniture,48,3137,150576
+2026-06,East,Office Supplies,44,349,15356
+2026-06,West,Technology,60,3565,213900
+2026-06,West,Furniture,44,1421,62524
+2026-06,West,Office Supplies,59,312,18408
+2026-07,North,Technology,43,4782,205626
+2026-07,North,Furniture,24,1984,47616
+2026-07,North,Office Supplies,52,682,35464
+2026-07,South,Technology,29,2940,85260
+2026-07,South,Furniture,22,3454,75988
+2026-07,South,Office Supplies,21,265,5565
+2026-07,East,Technology,23,4886,112378
+2026-07,East,Furniture,44,3171,139524
+2026-07,East,Office Supplies,43,638,27434
+2026-07,West,Technology,18,3399,61182
+2026-07,West,Furniture,47,2932,137804
+2026-07,West,Office Supplies,64,927,59328
+2026-08,North,Technology,63,3793,238959
+2026-08,North,Furniture,36,1439,51804
+2026-08,North,Office Supplies,65,1015,65975
+2026-08,South,Technology,38,2034,77292
+2026-08,South,Furniture,48,3375,162000
+2026-08,South,Office Supplies,21,440,9240
+2026-08,East,Technology,22,4237,93214
+2026-08,East,Furniture,33,1691,55803
+2026-08,East,Office Supplies,33,290,9570
+2026-08,West,Technology,57,2135,121695
+2026-08,West,Furniture,55,3341,183755
+2026-08,West,Office Supplies,34,494,16796
+2026-09,North,Technology,34,3421,116314
+2026-09,North,Furniture,59,3072,181248
+2026-09,North,Office Supplies,22,886,19492
+2026-09,South,Technology,54,2209,119286
+2026-09,South,Furniture,31,2286,70866
+2026-09,South,Office Supplies,40,628,25120
+2026-09,East,Technology,36,2446,88056
+2026-09,East,Furniture,63,3705,233415
+2026-09,East,Office Supplies,59,933,55047
+2026-09,West,Technology,53,3026,160378
+2026-09,West,Furniture,34,1638,55692
+2026-09,West,Office Supplies,53,538,28514
+2026-10,North,Technology,56,2662,149072
+2026-10,North,Furniture,61,2281,139141
+2026-10,North,Office Supplies,49,344,16856
+2026-10,South,Technology,58,3534,204972
+2026-10,South,Furniture,18,1735,31230
+2026-10,South,Office Supplies,34,814,27676
+2026-10,East,Technology,63,3551,223713
+2026-10,East,Furniture,25,1810,45250
+2026-10,East,Office Supplies,20,815,16300
+2026-10,West,Technology,27,3560,96120
+2026-10,West,Furniture,37,1363,50431
+2026-10,West,Office Supplies,31,932,28892
+2026-11,North,Technology,24,3248,77952
+2026-11,North,Furniture,57,1833,104481
+2026-11,North,Office Supplies,28,672,18816
+2026-11,South,Technology,19,2534,48146
+2026-11,South,Furniture,44,2216,97504
+2026-11,South,Office Supplies,28,641,17948
+2026-11,East,Technology,20,3727,74540
+2026-11,East,Furniture,47,2450,115150
+2026-11,East,Office Supplies,32,925,29600
+2026-11,West,Technology,30,3432,102960
+2026-11,West,Furniture,22,2343,51546
+2026-11,West,Office Supplies,59,945,55755
+2026-12,North,Technology,52,3156,164112
+2026-12,North,Furniture,34,3578,121652
+2026-12,North,Office Supplies,20,694,13880
+2026-12,South,Technology,40,4784,191360
+2026-12,South,Furniture,56,1673,93688
+2026-12,South,Office Supplies,54,295,15930
+2026-12,East,Technology,63,3586,225918
+2026-12,East,Furniture,52,2007,104364
+2026-12,East,Office Supplies,45,888,39960
+2026-12,West,Technology,38,4517,171646
+2026-12,West,Furniture,37,2466,91242
+2026-12,West,Office Supplies,44,963,42372
